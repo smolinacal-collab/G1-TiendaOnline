@@ -1,0 +1,123 @@
+
+body {
+    margin: 0;
+    font-family: "Gochi Hand", system-ui, sans-serif;
+    background: #f3e9d7;
+    color: #4e3f2b;
+    padding: 2rem 0;
+}
+
+.contacto-nav{
+    margin-bottom: 0;
+    height: 1vh;
+    display: flex;
+    align-items: end;
+    gap: 5px;
+    justify-content: center;
+}
+
+.btn-ocre {
+    padding: 0.7rem 1.6rem;
+    background: #c7a373;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 999px;
+    letter-spacing: 0.03em;
+    transition: 0.25s;
+    border: 2px solid #b28a5b;
+    font-family: "Gochi Hand", sans-serif;
+}
+
+.btn-ocre:hover {
+    background: #b28a5b;
+    transform: scale(1.07);
+}
+
+section {
+    margin: 2rem auto;
+    max-width: 900px;
+    padding: 2.5rem;
+    background: #e9d7b3;
+    border-radius: 18px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+h1, h2 {
+    font-family: "Gochi Hand", cursive;
+    margin-bottom: 1rem;
+    color: #4e3f2b;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.catalogo-ejemplos img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 0.5rem;
+    border: 3px solid #c7a37340;
+    object-fit: cover;
+}
+
+.catalogo-ejemplos figure {
+    margin-bottom: 2rem;
+}
+
+.catalogo-ejemplos figcaption {
+    text-align: center;
+    font-size: 0.95rem;
+    opacity: 0.8;
+}
+
+.catalogo-precios table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background: #f7f1e6;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.catalogo-precios th {
+    background: #c7a373;
+    color: white;
+    padding: 0.9rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.catalogo-precios td {
+    padding: 0.8rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #4e3f2b;
+}
+
+.catalogo-precios tr:nth-child(even) {
+    background: #ecdcc4;
+}
+
+.catalogo-precios tr:nth-child(odd) {
+    background: #f7f1e6;
+}
+
+
+@media (max-width: 600px) {
+    section {
+        padding: 1.8rem;
+    }
+
+    .catalogo-precios table {
+        font-size: 0.9rem;
+    }
+
+    .catalogo-precios th, .catalogo-precios td {
+        padding: 0.6rem;
+    }
+}
