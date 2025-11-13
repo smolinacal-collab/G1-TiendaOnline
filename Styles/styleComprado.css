@@ -63,6 +63,22 @@ body {
     transition: 0.3s;
 }
 
+.main-container{
+    background-color: rgba(197, 174, 143, 0.6) ;
+    padding: 3rem 6rem;
+    border-radius: 15px;
+}
+
+.btn-contacto{
+    width: 50%;
+    text-align: end;
+}
+
+.btn-inicio{
+    width: 50%;
+    text-align: start;
+}
+
 .btn-red:hover {
     background: #a51b1b;
 }
@@ -95,3 +111,4 @@ body {
         flex-direction: column;
     }
 }
+
