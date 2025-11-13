@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    background: #f3e9d7;
+    font-family: "Gochi Hand", sans-serif;
+    color: #4e3f2b;
+}
+
+.main-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;   /* MUY IMPORTANTE */
+    align-items: center;      /* Centra todo en columna */
+    height: 100vh;
+    justify-content: center;
+}
+
+.contacto-nav{
+    margin-bottom: 0;
+    height: 5vh;
+    display: flex;
+    align-items: end;
+    gap: 5px;
+}
+
+.contacto {
+    width: min(950px, 90vw);
+    background: #e9d7b3;        /* beige cálido */
+    border-radius: 20px;
+    padding: 3rem;
+    display: flex;
+    gap: 2.5rem;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contacto h1 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    color: #4e3f2b;
+}
+
+.contacto h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.bold { 
+    font-weight: bold; 
+}
+
+.italica { 
+    font-style: italic; 
+}
+
+.contacto p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 14px;
+    border: 2px solid #c7a373;
+    background: #f7f1e6;
+    font-size: 1rem;
+    resize: none;
+}
+
+input[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    background: #c7a373;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+}
+
+input[type="submit"]:hover {
+    background: #b68c5f;
+    transform: scale(1.05);
+}
+
+.contacto-img-box {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contacto-img-box img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 15px;
+    border: 3px solid #c7a37340; 
+    object-fit: cover;
+}
+
+
+@media (max-width: 850px) {
+    .contacto {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .contacto-info,
+    .contacto-img-box {
+        width: 100%;
+    }
+
+    .contacto-img-box {
+        justify-content: center;
+    }
+
+    textarea {
+        font-size: 1rem;
+    }
+}
+
+.btn-ocre {
+    padding: 0.7rem 1.6rem;
+    background: #c7a373;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 999px;
+    letter-spacing: 0.03em;
+    transition: 0.25s;
+    border: 2px solid #b28a5b;
+    font-family: "Gochi Hand", sans-serif;
+}
+
+.btn-ocre:hover {
+    background: #b28a5b;
+    transform: scale(1.07);
+}
