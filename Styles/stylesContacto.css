@@ -142,3 +142,7 @@ input[type="submit"]:hover {
     background: #b28a5b;
     transform: scale(1.07);
 }
+
+select {
+    border-radius: 8px;
+}
