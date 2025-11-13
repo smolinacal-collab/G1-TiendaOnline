@@ -1,32 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="Styles/stylesContacto.css">
 </head>
 <body>
-    <div class="contacto">
+    <div class="main-container">
+        <div class="contacto">
+            <div class="contacto-info">
+                <h1>Contacto</h1>
+                <h3>Información de contacto:</h3>
+    
+                <p><span class="bold">Teléfono:</span> <span class="italica">939 23 49 42</span></p>
+                <p><span class="bold">Dirección:</span> <span class="italica">ejemplo@ejemplo.com</span></p>
+    
+                <p>También puedes enviar un mensaje mediante nuestro formulario.</p>
+    
+                <form action="index.html">
+                    <label for="tipo">Motivo: </label>
+                    <select name="tipo" id="tipo">
+                        <option selected>-  -  -  -  -  -  -</option>
+                        <option value="Queja">Queja</option>
+                        <option value="Compra">Compra</option>
+                        <option value="Pregunta">Pregunta</option>
+                        <option value="Reseña">Reseña</option>
+                    </select><br><br>
+                    <label for="msg">Mensaje:</label><br>
+                    <textarea name="msg" id="msg" cols="50" rows="5"></textarea><br>
+                    
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+    
+            <div class="contacto-img-box">
+                <img src="images/contacto.jpg" alt="ilustración de personas">
+            </div>
+    
+        </div>
+
+        <div class="contacto-nav">
+            <div>
+                <a href="index.html" class="btn-ocre">Volver a la Portada</a>
+            </div>
+            <div>
+                <a href="catalogo.html" class="btn-ocre">Ir al Catálogo</a>
+            </div>
+        </div>
+    </div>
+    
         
-        <h1>Contacto</h1>
-        <h3>Información de contacto:</h2>
-        <p><span class="bold">Teléfono:</span> <span class="italica">939 23 49 42</span>
-        <br>
-        <span class="bold">Dirección:</span> <span class="italica">ejemplo@ejemplo.com</span> </p>
-        <br>
-        <img src="" alt="imagen">
-        <br>
-        <p>Tambien puedes enviar un mensaje mediante nuestro formulario.</p>
-        <form action="index.html">
-            <label for="mgs"><span class="bold">Mensaje:</span></label>
-            <br>
-            <textarea name="msg" id="msg" cols="50" rows="5"></textarea>
-            <br>
-            <input type="submit" value="Enviar">
-        </form>
-        
-        
-    </div> 
 </body>
 </html>
