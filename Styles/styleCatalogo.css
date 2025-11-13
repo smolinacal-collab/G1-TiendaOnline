@@ -121,3 +121,40 @@ p {
         padding: 0.6rem;
     }
 }
+
+.comprar{
+    border-radius: 999px;
+    background-color: #c7a373;
+    color: white;
+    border:#4e3f2b;
+    font-size: large;
+    padding: 10px;
+}
+.comprar:hover{
+    background-color:#a38156;
+}
+
+input[type="checkbox"] {
+  appearance: none;           /* Quita el estilo por defecto */
+  width: 18px;
+  height: 18px;
+  border: 2px solid #8b6b47;
+  border-radius: 5px;         /* 🔹 Redondea esquinas (o usa 50% para círculo) */
+  background-color: #f9f3e8;
+  cursor: pointer;
+  position: relative;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #cda676;
+  border-color: #8b6b47;
+}
+
+input[type="checkbox"]:checked::after {
+  content: "✓";
+  position: absolute;
+  top: -2px;
+  left: 3px;
+  color: white;
+  font-size: 14px;
+}
