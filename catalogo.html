@@ -28,36 +28,41 @@
     <section class="catalogo-precios">
         <h2>Precios</h2>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Tipo</th>
-                    <th>Lineart</th>
-                    <th>Flat Colors</th>
-                    <th>Rendered</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Bust</td>
-                    <td>20€</td>
-                    <td>30€</td>
-                    <td>40€</td>
-                </tr>
-                <tr>
-                    <td>Half Body</td>
-                    <td>30€</td>
-                    <td>45€</td>
-                    <td>65€</td>
-                </tr>
-                <tr>
-                    <td>Full Body</td>
-                    <td>40€</td>
-                    <td>60€</td>
-                    <td>80€</td>
-                </tr>
-            </tbody>
-        </table>
+        <form action="comprado.html">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Lineart</th>
+                        <th>Flat Colors</th>
+                        <th>Rendered</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bust</td>
+                        <td><input type="checkbox" name="bust20" id="bust"><label for="bust">20€</label></td>
+                        <td><input type="checkbox" name="half30" id="half"><label for="half">30€</label></td>
+                        <td><input type="checkbox" name="full40" id="full"><label for="full">40€</label></td>
+                    </tr>
+                    <tr>
+                        <td>Half Body</td>
+                        <td><input type="checkbox" name="bustFC30" id="bustFC30"><label for="bustFC30">30€</label></td>
+                        <td><input type="checkbox" name="halfFC45" id="halfFC45"><label for="halfFC45">45€</label></td>
+                        <td><input type="checkbox" name="fullFC65" id="fullFC65"><label for="fullFC65">65€</label></td>
+                    </tr>
+                    <tr>
+                        <td>Full Body</td>
+                        <td><input type="checkbox" name="bustRen40" id="bustRen40"><label for="bustRen40">40€</label></td>
+                        <td><input type="checkbox" name="halfRen60" id="halfRen60"><label for="halfRen60">60€</label></td>
+                        <td><input type="checkbox" name="fullRen80" id="fullRen80"><label for="fullRen80">80€</label></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <input type="submit" value="Comprar" class="comprar">
+            <br><br>
+        </form>
     </section>
 
     <div class="contacto-nav">
