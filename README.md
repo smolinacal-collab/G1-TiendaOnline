@@ -4,8 +4,12 @@ Este repositorio contiene el código fuente para una tienda online desarrollada 
 **Propósito del proyecto:**
 Crear una plataforma web funcional para la venta de productos, incluyendo una página de inicio, una página de contacto y estilos visuales.
 
+**Ejecucion**
+1- Ejecutar archivo.index
+
 **Integrantes:**
 * [Urko Martinez]
 * [Chiqui Moreno]
 * [Iván Arribas]
 * [Sharith Molina]
+
